@@ -26,22 +26,36 @@
 
     <section id="lista">
       <h2>Materiais Cadastrados</h2>
-      <table id="tabela">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Categoria</th>
-            <th>Qtd</th>
-            <th>Local</th>
-            <th>Fornecedor</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+
+      <div class="acoes">
+        <input type="text" id="buscar" placeholder="🔍 Buscar material...">
+        <button id="limparTudo" class="btn-danger">🧹 Limpar Tudo</button>
+        <button id="exportar" class="btn-secundario">📁 Exportar CSV</button>
+      </div>
+
+      <div class="tabela-container">
+        <table id="tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Categoria</th>
+              <th>Qtd</th>
+              <th>Local</th>
+              <th>Fornecedor</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <p>Mostra de Estágio Supervisionado</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
