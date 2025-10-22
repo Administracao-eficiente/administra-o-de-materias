@@ -29,6 +29,11 @@ h2 {
   margin-top: 0;
 }
 
+/* ======== ESPAÇAMENTO ENTRE SEÇÕES ======== */
+#cadastro {
+  margin-bottom: 40px; /* adiciona espaço entre as seções */
+}
+
 form {
   display: flex;
   flex-wrap: wrap;
