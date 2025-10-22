@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Materiais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📦 Catálogo de Materiais</h1>
+  </header>
+
+  <main>
+    <section id="cadastro">
+      <h2>Cadastrar Material</h2>
+      <form id="materialForm">
+        <input type="text" id="nome" placeholder="Nome do Material" required>
+        <input type="text" id="categoria" placeholder="Categoria" required>
+        <input type="number" id="quantidade" placeholder="Quantidade" required>
+        <input type="text" id="local" placeholder="Localização" required>
+        <input type="text" id="fornecedor" placeholder="Fornecedor" required>
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section id="lista">
+      <h2>Materiais Cadastrados</h2>
+      <table id="tabela">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Qtd</th>
+            <th>Local</th>
+            <th>Fornecedor</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
